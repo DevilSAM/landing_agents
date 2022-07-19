@@ -1,5 +1,5 @@
 <template>
-    <section >
+    <section class="custom-section-padding">
         <div class="max-width-container section-9">
             <div class="top">
                 <div class="top-left">

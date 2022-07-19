@@ -66,3 +66,39 @@
         margin-top: 30px;
     }
 }
+
+
+/* стили для XL */
+@media (max-width: 1400px) {
+    .section-6 {
+        .diagram-block {
+            .prefix {
+                .stat {
+                    font-size: 1.6rem;
+                }
+            }
+            .diagram {
+                img {
+                    width: 300px;
+                }
+            }
+            .suffix {
+                .stat {
+                    font-size: 1.6rem;
+                }
+            }
+        }
+    }
+}
+
+/* стили для LG */
+@media (max-width: 1200px) {}
+
+/* стили для MD */
+@media (max-width: 992px) {}
+
+/* стили для SM */
+@media (max-width: 768px) {}
+
+/* стили для XS */
+@media (max-width: 576px) {}

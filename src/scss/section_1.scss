@@ -17,3 +17,27 @@
         }
     }
 }
+
+/* стили для XL */
+@media (max-width: 1400px) {
+    .section-1 {
+        .left-side {
+            width: 60%;
+        }
+        .right-side {
+            width: 40%;
+        }
+    }
+}
+
+/* стили для LG */
+@media (max-width: 1200px) {}
+
+/* стили для MD */
+@media (max-width: 992px) {}
+
+/* стили для SM */
+@media (max-width: 768px) {}
+
+/* стили для XS */
+@media (max-width: 576px) {}

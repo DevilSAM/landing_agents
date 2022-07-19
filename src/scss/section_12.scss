@@ -49,9 +49,32 @@
     }
 
 
-
-
     .plyr--video {
         border-radius: 10px;
     }
 }
+
+
+
+/* стили для XL */
+@media (max-width: 1400px) {
+    .section-12 {
+        .factors-wrapper {
+            .factor-item {
+                width: 19%;
+            }
+        }
+    }
+}
+
+/* стили для LG */
+@media (max-width: 1200px) {}
+
+/* стили для MD */
+@media (max-width: 992px) {}
+
+/* стили для SM */
+@media (max-width: 768px) {}
+
+/* стили для XS */
+@media (max-width: 576px) {}

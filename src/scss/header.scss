@@ -1,15 +1,36 @@
-.header-wrapper {
-    display: flex;
-    align-items: center;
-    padding-top: 30px;
-    margin-bottom: 100px;
+header {
+    padding-left: 100px;
+    padding-right: 100px;
 
-    .logo-image {
-        width: 140px;
-    }
+    .header-wrapper {
+        display: flex;
+        align-items: center;
+        padding-top: 30px;
+        margin-bottom: 100px;
 
-    .company-info {
-        margin-left: 100px;
+        .logo-image {
+            width: 140px;
+        }
+
+        .company-info {
+            margin-left: 100px;
+        }
     }
 }
 
+
+
+/* стили для XL */
+@media (max-width: 1400px) {}
+
+/* стили для LG */
+@media (max-width: 1200px) {}
+
+/* стили для MD */
+@media (max-width: 992px) {}
+
+/* стили для SM */
+@media (max-width: 768px) {}
+
+/* стили для XS */
+@media (max-width: 576px) {}

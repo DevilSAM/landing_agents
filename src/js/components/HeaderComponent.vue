@@ -1,6 +1,6 @@
 <template>
     <header class="">
-        <div class="max-width-container header header-wrappergit ">
+        <div class="max-width-container header header-wrapper">
 
             <div class="logo-image">
                 <img src="src/images/nasledie_logo.png" alt="лого компании" class="logo-image">
