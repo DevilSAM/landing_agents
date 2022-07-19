@@ -1,0 +1,42 @@
+.section-8 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+    .section-descr {
+        margin-top: 2rem;
+        width: 35%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .vacation-block {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 70px;
+        background-image: url("/src/images/girl_shoting.png");
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+
+        .vacation-image {
+            position: absolute;
+            height: 100%;
+            top: 0;
+            left: calc(50%);
+        }
+
+        .vacation-card {
+            margin-top: 60px;
+            margin-bottom: 60px;
+            padding: 50px;
+            width: 40%;
+            background-color: #FFFFFF;
+            z-index: 2;
+
+            .card-title {
+                font-size: 1.15rem;
+                font-weight: 700;
+            }
+        }
+    }
+}

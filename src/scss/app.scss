@@ -1,8 +1,31 @@
 // Fonts
-@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 // Variables
 @import 'variables';
 
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
+
+// тут подключаем различные компоненты
+@import '~vue-plyr/dist/vue-plyr.css';
+
+@import 'general';
+@import "buttons";
+@import "lists";
+@import "header";
+
+@import "section_1";
+@import "section_2";
+@import "section_3";
+@import "section_4";
+@import "section_5";
+@import "section_6";
+@import "section_7";
+@import "section_8";
+@import "section_9";
+@import "section_10";
+@import "section_11";
+@import "section_12";
+
+@import "footer";

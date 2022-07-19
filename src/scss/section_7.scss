@@ -1,0 +1,25 @@
+.section-7 {
+    .office-img {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .have-no-title {
+        font-size: 1.15rem;
+        font-weight: 700;
+    }
+    .have-no-block {
+        display: flex;
+
+        .item {
+            color: #EE3636;
+
+            &:not(:last-child) {
+                margin-right: 100px;
+            }
+        }
+    }
+    .office-ps {
+        margin-top: 30px;
+    }
+
+}

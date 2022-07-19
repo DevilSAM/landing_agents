@@ -1,0 +1,68 @@
+.section-6 {
+    .title {
+        margin-bottom: 50px;
+    }
+
+    .section-stat {
+        font-weight: 700;
+    }
+
+    .diagram-block {
+        display: flex;
+        justify-content: center;
+
+        .prefix {
+            text-align: right;
+            margin-right: 100px;
+            padding-top: 100px;
+            .stat {
+                color: #D9A66F;
+            }
+
+            .left-stat {
+                position: relative;
+                &:after {
+                    position: absolute;
+                    top: calc(50% - 1px);
+                    right: -70px;
+                    content: "";
+                    width: 50px;
+                    height: 2px;
+                    background-color: #D4D4D4;
+                }
+            }
+        }
+
+        .diagram {
+            img {
+                width: 322px;
+            }
+        }
+
+        .suffix {
+            text-align: left;
+            margin-left: 100px;
+            padding-top: 100px;
+            .stat {
+                color: $primary;
+            }
+
+            .right-stat {
+                position: relative;
+                &:before {
+                    position: absolute;
+                    top: calc(50% - 1px);
+                    left: -70px;
+                    content: "";
+                    width: 50px;
+                    height: 2px;
+                    background-color: #D4D4D4;
+                }
+            }
+        }
+    }
+
+    .diagram-ps {
+        margin-top: 30px;
+    }
+}

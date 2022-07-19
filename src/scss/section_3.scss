@@ -1,0 +1,40 @@
+.section-3 {
+    .work-in-company {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+
+        .about-work-title {
+            margin-bottom: 5rem;
+        }
+
+        .top-row, .bottom-row {
+            display: flex;
+            justify-content: space-around;
+
+            .about-work-item {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                width: 33.33%;
+
+                .icon-wrapper {
+                    background-color: $primary;
+                    width: 90px;
+                    height: 90px;
+                    border-radius: 50%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin-bottom: 20px;
+
+                    img {
+                        width: 46px;
+                        height: 46px;
+                    }
+                }
+            }
+        }
+
+    }
+}

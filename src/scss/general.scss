@@ -1,0 +1,70 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Inter, sans-serif;
+    background-color: #FFFFFF;
+    color: #000000;
+}
+
+.max-width-container {
+    max-width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.secondary-background {
+    background-color: $secondary-background;
+}
+
+
+section {
+    margin-top: 0;
+    margin-bottom: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.small-text {
+    font-size: 14px;
+}
+.smallest-text {
+    font-size: 12px;
+}
+.grey-text {
+    color: #000;
+    opacity: 0.4;
+}
+
+
+.main-title {
+    font-size: 2.7rem;
+    line-height: 2.7rem;
+    font-weight: 600;
+}
+.title {
+    font-weight: 600;
+}
+
+
+
+
+
+
+
+
+
+/* стили для XL */
+@media (max-width: 1400px) {}
+
+/* стили для LG */
+@media (max-width: 1200px) {}
+
+/* стили для MD */
+@media (max-width: 992px) {}
+
+/* стили для SM */
+@media (max-width: 768px) {}
+
+/* стили для XS */
+@media (max-width: 576px) {}

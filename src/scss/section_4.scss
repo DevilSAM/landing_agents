@@ -1,0 +1,30 @@
+.section-4 {
+    .video-title {
+        font-weight: 500;
+        margin-bottom: 50px;
+    }
+
+    .video-wrapper {
+        position: relative;
+        width: 100%;
+
+        .plyr-wrapper{
+            width: 50%;
+            margin-left: auto;
+            margin-right: auto;
+
+        }
+
+        &:after {
+            position: absolute;
+            width: 100%;
+            content: "";
+            background-color: $primary;
+            height: 30%;
+            top: 35%;
+            left: 0;
+            z-index: -1;
+        }
+
+    }
+}

@@ -1,0 +1,32 @@
+footer {
+    background-color: #F8F8F8;
+    padding: 50px 100px 100px;
+
+    .footer {
+        display: flex;
+
+        .logo-image {
+            width: 140px;
+        }
+
+        .contact-block {
+            display: flex;
+
+            a {
+                text-decoration: none;
+                color: black;
+            }
+
+            .phone-icon {
+                width: 20px;
+                align-self: center;
+                opacity: 0.5;
+            }
+            .contact {
+                font-size: 1.15rem;
+            }
+        }
+    }
+
+}
+

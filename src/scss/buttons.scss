@@ -1,0 +1,16 @@
+.btn-primary, .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
+    color: #FFFFFF;
+}
+
+.btn-primary {
+    padding: 10px 20px;
+
+    &.btn-inverted {
+        color: $primary;
+        background-color: #ffffff;
+
+        &:hover, &:focus, &:active {
+            background-color: #f3eeee;
+        }
+    }
+}

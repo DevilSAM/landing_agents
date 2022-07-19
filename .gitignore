@@ -1,9 +1,6 @@
 .gitignore
 .idea/
-dist/assets/css/*
-!dist/assets/css/.gitkeep
-dist/assets/fonts/*
-!dist/assets/fonts/.gitkeep
-dist/assets/js/*
-!dist/assets/js/.gitkeep
+dist/
+src/images/
+src/video/
 node_modules/

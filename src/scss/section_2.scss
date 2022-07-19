@@ -1,0 +1,31 @@
+.section-2 {
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+
+    .left-side {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+    }
+
+    .divider {
+
+        img {
+            width: 200px;
+            height: calc(100% + 50px);
+            transform: translateY(-35px);
+        }
+    }
+
+    .right-side {
+        display: flex;
+        flex-direction: column;
+        text-align: right;
+    }
+
+    .icon {
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+}
