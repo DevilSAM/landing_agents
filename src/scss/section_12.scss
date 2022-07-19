@@ -147,4 +147,24 @@
 }
 
 /* стили для XS */
-@media (max-width: 576px) {}
+@media (max-width: 576px) {
+    .section-12 {
+        .factors-wrapper {
+            .factor-item {
+                width: 100%;
+                flex-direction: row;
+
+                img {
+                    margin-right: 1rem;
+                }
+
+                .factor-descr {
+                    font-size: 1rem;
+                    text-align: left!important;
+                    margin-top: 0;
+                    margin-bottom: 0;
+                }
+            }
+        }
+    }
+}

@@ -73,4 +73,16 @@
 }
 
 /* стили для XS */
-@media (max-width: 576px) {}
+@media (max-width: 576px) {
+    .section-7 {
+        .have-no-block {
+            .item {
+                font-size: 1.2rem;
+            }
+        }
+        .office-ps {
+            text-align: left;
+            margin-top: 10px;
+        }
+    }
+}

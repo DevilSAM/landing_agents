@@ -52,6 +52,9 @@
 /* стили для SM */
 @media (max-width: 768px) {
     .section-1 {
+        .mobile-main-image {
+            width: 300px;
+        }
         .left-side {
             width: 100%;
         }
@@ -59,4 +62,10 @@
 }
 
 /* стили для XS */
-@media (max-width: 576px) {}
+@media (max-width: 576px) {
+    .section-1 {
+        .mobile-main-image {
+            width: 250px;
+        }
+    }
+}

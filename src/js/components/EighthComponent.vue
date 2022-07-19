@@ -2,7 +2,7 @@
     <section class="secondary-background">
         <div class="max-width-container section-8">
             <h1 class="section-title title text-center">Хорошо работаешь — хорошо отдыхай!</h1>
-            <img src="src/images/girl_shoting.png" alt="девушка фоткает" class="d-block d-md-none mx-auto mt-4" width="200px">
+            <img src="src/images/girl_shoting.png" alt="девушка фоткает" class="d-block d-md-none mx-auto mt-4 section-mobile-image">
             <p class="text-center section-descr">Для нас важно, чтобы ты достигал не только профессиональных, но и личных целей.</p>
             <p class="text-center section-descr">И мы создали для этого все условия:</p>
             <div class="vacation-block">

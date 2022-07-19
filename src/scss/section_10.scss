@@ -24,4 +24,12 @@
 }
 
 /* стили для XS */
-@media (max-width: 576px) {}
+@media (max-width: 576px) {
+    .section-10 {
+        ul {
+            li {
+                text-align: left;
+            }
+        }
+    }
+}

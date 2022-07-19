@@ -64,8 +64,31 @@
     }
 }
 
-/* стили для SM */
-@media (max-width: 768px) {}
 
 /* стили для XS */
-@media (max-width: 576px) {}
+@media (max-width: 576px) {
+    .section-3 {
+        .work-in-company {
+            .about-work-title {
+                margin-bottom: 2rem;
+            }
+
+            .top-row, .bottom-row {
+                flex-wrap: wrap;
+
+                .about-work-item {
+                    width: 100%;
+
+                    .icon-wrapper {
+                        margin-bottom: 10px;
+                    }
+
+                    .about-work-descr {
+                        margin-bottom: 1.5rem;
+                    }
+                }
+            }
+
+        }
+    }
+}

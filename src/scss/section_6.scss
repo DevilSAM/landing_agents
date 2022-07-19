@@ -189,4 +189,51 @@
 }
 
 /* стили для XS */
-@media (max-width: 576px) {}
+@media (max-width: 576px) {
+    .section-6 {
+        .title {
+            margin-bottom: 35px;
+            text-align: center;
+        }
+
+        .diagram-block {
+            flex-direction: column;
+
+            .prefix {
+                margin-right: 0;
+                text-align: center;
+
+                .left-stat {
+                    &:after {
+                        content: none;
+                    }
+                }
+            }
+            .diagram {
+                order: -1;
+                margin-bottom: 10px;
+
+                img {
+                    width: 150px;
+                    margin-left: auto;
+                    margin-right: auto;
+                    display: block;
+                }
+            }
+            .suffix {
+                margin-left: 0;
+                text-align: center;
+
+                .right-stat {
+                    &:before {
+                        content: none;
+                    }
+                }
+            }
+        }
+
+        .diagram-ps {
+            margin-top: 10px;
+        }
+    }
+}

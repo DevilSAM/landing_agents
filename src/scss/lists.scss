@@ -75,4 +75,35 @@ ol {
 }
 
 /* стили для XS */
-@media (max-width: 576px) {}
+@media (max-width: 576px) {
+    ul {
+        li {
+            text-align: justify;
+            line-height: 1.4rem;
+            margin-top: 20px;
+
+            &.disc-left {
+                margin-left: 25px;
+
+                &:before {
+                    top: calc(50% - 6px);
+                    left: -25px;
+                    width: 12px;
+                    height: 12px;
+                }
+            }
+            &.disc-right {
+                font-size: 1.2rem;
+                margin-left: 25px;
+                margin-right: 0;
+
+                &:after {
+                    top: calc(50% - 6px);
+                    left: -25px;
+                    width: 12px;
+                    height: 12px;
+                }
+            }
+        }
+    }
+}

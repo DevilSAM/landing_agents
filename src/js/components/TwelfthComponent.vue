@@ -2,7 +2,7 @@
     <section >
         <div class="max-width-container section-12">
             <div class="section-title">
-                <h1 class="title">Реально ли выйти на доход<br>от 300 т.р/мес за 90 дней?</h1>
+                <h1 class="title">Реально ли выйти на доход <br class="d-none d-sm-inline">от 300 т.р/мес за 90 дней?</h1>
                 <p >Посмотри видео-отзывы тех, кто уже это сделал, и реши сам.</p>
             </div>
             <div class="feedback-videos">
@@ -51,7 +51,7 @@
             <hr>
 
             <h1 class="title text-center mt-5">Сделай 1-й шаг к лучшей жизни</h1>
-            <button class="btn btn-primary d-block mx-auto mt-4 mb-5">Посмотри уроки и прими решение бесплатно</button>
+            <button class="btn btn-primary d-block mx-auto mt-4 mb-5">Посмотри уроки<span class="d-none d-sm-inline"> и прими решение</span> бесплатно</button>
             <hr>
         </div>
     </section>

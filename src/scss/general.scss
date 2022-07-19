@@ -17,6 +17,10 @@ body {
     background-color: $secondary-background;
 }
 
+.text-subprimary {
+    color: #D9A66F;
+}
+
 
 section {
     margin-top: 0;
@@ -88,5 +92,24 @@ section {
     }
     .small-text {
         font-size: 1rem;
+    }
+}
+
+@media (max-width: 576px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+    section {
+        padding-left: 30px;
+        padding-right: 30px;
+        margin-bottom: 40px;
+    }
+    .main-title {
+        font-size: 1.5rem;
+        line-height: 2rem;
+        text-align: justify;
+    }
+    .small-text {
+        font-size: 1.2rem;
     }
 }

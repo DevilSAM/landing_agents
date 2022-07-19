@@ -64,4 +64,23 @@ footer {
 }
 
 /* стили для XS */
-@media (max-width: 576px) {}
+@media (max-width: 576px) {
+    footer {
+        padding: 30px;
+
+        .footer {
+            flex-direction: column;
+            align-items: center;
+
+            .logo-image {
+                width: 140px;
+                margin-bottom: 1rem;
+            }
+
+            .contact-block {
+                margin-bottom: 1rem;
+            }
+
+        }
+    }
+}

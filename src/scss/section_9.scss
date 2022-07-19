@@ -171,6 +171,7 @@
                 width: 100%;
             }
             .bottom-right {
+                width: 100%;
                 padding-top: 10px;
                 padding-right: 0;
 
@@ -193,4 +194,58 @@
 }
 
 /* стили для XS */
-@media (max-width: 576px) {}
+@media (max-width: 576px) {
+    .section-9 {
+        .top {
+            .top-left {
+                padding-right: 0;
+
+                .video-title {
+                    text-align: left;
+                }
+                .descr {
+                    text-align: left;
+                }
+                li {
+                    text-align: left;
+                }
+            }
+            .top-right {
+                width: 100%;
+                border: none;
+
+                .plyr--video {
+                    border-radius: 10px;
+                }
+            }
+        }
+        .bottom {
+            margin-top: 50px;
+            flex-direction: column;
+
+            .bottom-left {
+                width: 100%;
+            }
+            .bottom-right {
+                padding-top: 10px;
+                padding-right: 0;
+
+                img {
+                    margin-left: 1rem;
+                }
+
+                ol {
+                    padding-left: 1rem;
+
+                    li {
+                        margin-bottom: 10px;
+                    }
+                }
+            };
+        }
+    }
+    .custom-section-padding {
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+}

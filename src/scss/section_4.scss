@@ -65,4 +65,20 @@
 }
 
 /* стили для XS */
-@media (max-width: 576px) {}
+@media (max-width: 576px) {
+    .section-4 {
+        .video-title {
+            text-align: left!important;
+        }
+
+        .video-wrapper {
+            .plyr-wrapper{
+                width: 100%;
+
+                .plyr--video {
+                    border-radius: 10px;
+                }
+            }
+        }
+    }
+}

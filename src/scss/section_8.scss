@@ -93,6 +93,10 @@
         padding-top: 60px;
         padding-bottom: 60px;
 
+        .section-mobile-image {
+            width: 200px;
+        }
+
         .vacation-block {
             flex-direction: column;
             margin-top: 0;
@@ -110,4 +114,27 @@
 }
 
 /* стили для XS */
-@media (max-width: 576px) {}
+@media (max-width: 576px) {
+    .section-8 {
+        padding-top: 40px;
+        padding-bottom: 40px;
+
+        .section-mobile-image {
+            width: 250px;
+        }
+
+        .vacation-block {
+            flex-direction: column;
+            margin-top: 0;
+            background-image: none;
+
+            .vacation-card {
+                margin-top: 10px;
+
+                li {
+                    text-align: left;
+                }
+            }
+        }
+    }
+}

@@ -6,7 +6,7 @@
                     <img src="src/images/icons/question_mark.png" alt="">
                 </div>
                 <h2 class="pre-title">
-                    Британские ученые<br>утверждают, что:
+                    Британские ученые <br class="d-none d-sm-block">утверждают, что:
                 </h2>
                 <ul class="small-text">
                     <li class="disc-left">первая сделка будет только через 3-6 месяцев</li>
@@ -24,7 +24,7 @@
                     <img src="src/images/icons/check.png" alt="">
                 </div>
                 <h2 class="pre-title">
-                    Наши успешные агенты<br>это опровергают!
+                    Наши успешные агенты <br class="d-none d-sm-block">это опровергают!
                 </h2>
                 <ul>
                     <li class="disc-right">1,5 месяца – стандартный срок выхода на первую сделку</li>
