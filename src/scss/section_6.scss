@@ -92,7 +92,31 @@
 }
 
 /* стили для LG */
-@media (max-width: 1200px) {}
+@media (max-width: 1200px) {
+    .section-6 {
+        .diagram-block {
+            .prefix {
+                padding-top: 50px;
+
+                .stat {
+                    font-size: 1.3rem;
+                }
+            }
+            .diagram {
+                img {
+                    width: 240px;
+                }
+            }
+            .suffix {
+                padding-top: 50px;
+
+                .stat {
+                    font-size: 1.3rem;
+                }
+            }
+        }
+    }
+}
 
 /* стили для MD */
 @media (max-width: 992px) {}

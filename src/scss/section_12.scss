@@ -17,6 +17,7 @@
     .feedback-videos {
         display: flex;
         justify-content: space-between;
+        flex-wrap: wrap;
 
         .video-wrapper {
             width: 30%;
@@ -68,7 +69,33 @@
 }
 
 /* стили для LG */
-@media (max-width: 1200px) {}
+@media (max-width: 1200px) {
+    .section-12 {
+        .section-title {
+            width: 75%;
+        }
+
+        .feedback-videos {
+            justify-content: space-around;
+            .video-wrapper {
+                width: 45%;
+            }
+        }
+
+        .slogan {
+            margin-top: 20px;
+            margin-bottom: 60px;
+        }
+
+        .factors-wrapper {
+            .factor-item {
+                .factor-descr {
+                    font-size: 1rem;
+                }
+            }
+        }
+    }
+}
 
 /* стили для MD */
 @media (max-width: 992px) {}

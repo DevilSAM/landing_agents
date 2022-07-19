@@ -6,7 +6,7 @@
                 <p >Посмотри видео-отзывы тех, кто уже это сделал, и реши сам.</p>
             </div>
             <div class="feedback-videos">
-                <div class="video-wrapper">
+                <div class="video-wrapper mb-4 mb-xl-0">
                     <vue-plyr>
                         <video controls crossorigin playsinline>
                             <source
@@ -17,7 +17,7 @@
                         </video>
                     </vue-plyr>
                 </div>
-                <div class="video-wrapper">
+                <div class="video-wrapper mb-4 mb-xl-0">
                     <vue-plyr>
                         <video controls crossorigin playsinline>
                             <source
@@ -28,7 +28,7 @@
                         </video>
                     </vue-plyr>
                 </div>
-                <div class="video-wrapper">
+                <div class="video-wrapper mb-4 mb-xl-0">
                     <vue-plyr>
                         <video controls crossorigin playsinline>
                             <source

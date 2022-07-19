@@ -56,7 +56,14 @@ section {
 }
 
 /* стили для LG */
-@media (max-width: 1200px) {}
+@media (max-width: 1200px) {
+    .main-title {
+        font-size: 2.2rem;
+    }
+    h1 {
+        font-size: 2rem;
+    }
+}
 
 /* стили для MD */
 @media (max-width: 992px) {}

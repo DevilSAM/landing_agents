@@ -52,7 +52,21 @@
 }
 
 /* стили для LG */
-@media (max-width: 1200px) {}
+@media (max-width: 1200px) {
+    .section-8 {
+        .section-descr {
+            width: 70%;
+        }
+        .vacation-block {
+            margin-top: 40px;
+
+            .vacation-card {
+                padding: 35px;
+                width: 42%;
+            }
+        }
+    }
+}
 
 /* стили для MD */
 @media (max-width: 992px) {}
