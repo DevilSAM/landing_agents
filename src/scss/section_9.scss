@@ -97,6 +97,7 @@
             }
             .top-right {
                 border: 15px solid #E3E3E3;
+                border-right: none;
                 border-radius: 15px 0 0 15px;
             }
         }
@@ -116,7 +117,48 @@
 }
 
 /* стили для MD */
-@media (max-width: 992px) {}
+@media (max-width: 992px) {
+    .section-9 {
+        .top {
+            flex-direction: column;
+
+            .top-left {
+                width: 100%;
+
+                .video-title {
+                    text-align: center;
+                }
+                .descr {
+                    text-align: center;
+                    &.fw-bold {
+                        text-align: left;
+                    }
+                }
+            }
+            .top-right {
+                width: 100%;
+                border: 30px solid #E3E3E3;
+                border-radius: 30px;
+            }
+        }
+        .bottom {
+            .bottom-left {
+                font-size: 1.5rem;
+            }
+            .bottom-right {
+                padding-top: 10px;
+                padding-right: 0;
+
+                img {
+                    margin-left: 1rem;
+                }
+            };
+        }
+    }
+    .custom-section-padding {
+        padding-right: 60px;
+    }
+}
 
 /* стили для SM */
 @media (max-width: 768px) {}

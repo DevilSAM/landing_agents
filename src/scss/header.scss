@@ -27,7 +27,18 @@ header {
 @media (max-width: 1200px) {}
 
 /* стили для MD */
-@media (max-width: 992px) {}
+@media (max-width: 992px) {
+    header {
+        padding-left: 60px;
+        padding-right: 60px;
+
+        .header-wrapper {
+            .company-info {
+                margin-left: 50px;
+            }
+        }
+    }
+}
 
 /* стили для SM */
 @media (max-width: 768px) {}

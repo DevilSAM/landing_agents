@@ -29,14 +29,14 @@
         data() {
             return {
                 about_top: [
-                    {img: 'src/images/icons/star.png', txt: 'Ежедневная работа по развитию<br>ключевых навыков'},
-                    {img: 'src/images/icons/users_group.png', txt: 'Сильное окружение<br>которое тянет тебя вверх'},
-                    {img: 'src/images/icons/activity.png', txt: 'Выход на стабильные доходы от<br>300т.р./мес за 90 дней'}
+                    {img: 'src/images/icons/star.png', txt: 'Ежедневная работа по развитию <br class="d-none d-lg-block">ключевых навыков'},
+                    {img: 'src/images/icons/users_group.png', txt: 'Сильное окружение <br class="d-none d-lg-block">которое тянет тебя вверх'},
+                    {img: 'src/images/icons/activity.png', txt: 'Выход на стабильные доходы от <br class="d-none d-lg-block">300т.р./мес за 90 дней'}
                 ],
                 about_bottom: [
-                    {img: 'src/images/icons/image.png', txt: 'Путешествия 3-4 раза в год<br>Мини-отпуск каждый месяц'},
-                    {img: 'src/images/icons/heart.png', txt: 'Принесение максимальной<br>пользы клиентам'},
-                    {img: 'src/images/icons/shield.png', txt: 'Благодарные клиенты<br>и чистая совесть'}
+                    {img: 'src/images/icons/image.png', txt: 'Путешествия 3-4 раза в год <br class="d-none d-lg-block">Мини-отпуск каждый месяц'},
+                    {img: 'src/images/icons/heart.png', txt: 'Принесение максимальной <br class="d-none d-lg-block">пользы клиентам'},
+                    {img: 'src/images/icons/shield.png', txt: 'Благодарные клиенты <br class="d-none d-lg-block">и чистая совесть'}
                 ]
             }
         }

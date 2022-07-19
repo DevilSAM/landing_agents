@@ -45,3 +45,19 @@ ol {
         margin-bottom: 20px;
     }
 }
+
+
+/* стили для MD */
+@media (max-width: 992px) {
+    ul {
+        li {
+            margin-top: 4px;
+        }
+    }
+}
+
+/* стили для SM */
+@media (max-width: 768px) {}
+
+/* стили для XS */
+@media (max-width: 576px) {}

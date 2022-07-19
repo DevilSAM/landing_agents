@@ -6,7 +6,7 @@
             </div>
 
             <div class="contact-block ms-auto">
-                <p class="contact email me-5 mb-0">
+                <p class="contact email me-4 me-lg-5 mb-0">
                     <a href="mailto:mail@nasledie.ru" class="text-primary">mail@nasledie.ru</a>
                 </p>
                 <img src="src/images/icons/phone.png" alt="телефон" class="phone-icon me-3">

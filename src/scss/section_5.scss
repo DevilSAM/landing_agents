@@ -53,11 +53,24 @@
         h1, p {
             width: 80%;
         }
+
+        .tasks-wrapper {
+            margin-top: 70px;
+        }
     }
 }
 
 /* стили для MD */
-@media (max-width: 992px) {}
+@media (max-width: 992px) {
+    .section-5 {
+        padding-top: 70px;
+        padding-bottom: 70px;
+
+        h1, p {
+            width: 90%;
+        }
+    }
+}
 
 /* стили для SM */
 @media (max-width: 768px) {}

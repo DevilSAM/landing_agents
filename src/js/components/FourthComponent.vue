@@ -1,7 +1,7 @@
 <template>
     <section>
         <div class="max-width-container section-4">
-            <h2 class="video-title text-center">Посмотри короткое видео и узнай, что тебя ждет,<br>если сможешь стать частью нашей команды</h2>
+            <h2 class="video-title text-center">Посмотри короткое видео и узнай, что тебя ждет,<br class="d-none d-lg-block">если сможешь стать частью нашей команды</h2>
 
             <div class="video-wrapper">
 

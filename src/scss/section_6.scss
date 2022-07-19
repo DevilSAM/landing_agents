@@ -119,7 +119,33 @@
 }
 
 /* стили для MD */
-@media (max-width: 992px) {}
+@media (max-width: 992px) {
+    .section-6 {
+        .diagram-block {
+            .prefix {
+                padding-top: 25px;
+                margin-right: 70px;
+
+                .stat {
+                    font-size: 1.15rem;
+                }
+            }
+            .diagram {
+                img {
+                    width: 175px;
+                }
+            }
+            .suffix {
+                padding-top: 25px;
+                margin-left: 70px;
+
+                .stat {
+                    font-size: 1.15rem;
+                }
+            }
+        }
+    }
+}
 
 /* стили для SM */
 @media (max-width: 768px) {}

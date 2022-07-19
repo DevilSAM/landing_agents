@@ -69,7 +69,23 @@
 }
 
 /* стили для MD */
-@media (max-width: 992px) {}
+@media (max-width: 992px) {
+    .section-8 {
+        .section-descr {
+            width: 100%;
+        }
+        .vacation-block {
+            margin-top: 40px;
+
+            .vacation-card {
+                margin-top: 30px;
+                margin-bottom: 30px;
+                padding: 27px;
+                font-size: 0.85rem;
+            }
+        }
+    }
+}
 
 /* стили для SM */
 @media (max-width: 768px) {}

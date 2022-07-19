@@ -98,7 +98,22 @@
 }
 
 /* стили для MD */
-@media (max-width: 992px) {}
+@media (max-width: 992px) {
+    .section-12 {
+        .slogan {
+            margin-top: 30px;
+            margin-bottom: 40px;
+        }
+
+        .factors-wrapper {
+            .factor-item {
+                .factor-descr {
+                    font-size: 0.85rem;
+                }
+            }
+        }
+    }
+}
 
 /* стили для SM */
 @media (max-width: 768px) {}

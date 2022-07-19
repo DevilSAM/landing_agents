@@ -34,7 +34,20 @@
 @media (max-width: 1200px) {}
 
 /* стили для MD */
-@media (max-width: 992px) {}
+@media (max-width: 992px) {
+    .section-1 {
+        .left-side {
+            width: 70%;
+        }
+        .right-side {
+            width: 30%;
+
+            img {
+                max-width: 220px;
+            }
+        }
+    }
+}
 
 /* стили для SM */
 @media (max-width: 768px) {}

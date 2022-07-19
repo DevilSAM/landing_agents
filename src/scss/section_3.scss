@@ -38,3 +38,34 @@
 
     }
 }
+
+
+/* стили для MD */
+@media (max-width: 992px) {
+    .section-3 {
+        .work-in-company {
+            .top-row, .bottom-row {
+                .about-work-item {
+                    width: 31%;
+
+                    .icon-wrapper {
+                        width: 70px;
+                        height: 70px;
+
+                        img {
+                            width: 35px;
+                            height: 35px;
+                        }
+                    }
+                }
+            }
+
+        }
+    }
+}
+
+/* стили для SM */
+@media (max-width: 768px) {}
+
+/* стили для XS */
+@media (max-width: 576px) {}
