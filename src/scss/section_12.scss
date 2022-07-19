@@ -116,7 +116,35 @@
 }
 
 /* стили для SM */
-@media (max-width: 768px) {}
+@media (max-width: 768px) {
+    .section-12 {
+        .section-title {
+            width: 100%;
+        }
+
+        .feedback-videos {
+            flex-direction: column;
+            .video-wrapper {
+                width: 100%;
+            }
+        }
+
+        .factors-wrapper {
+            justify-content: flex-start;
+            flex-wrap: wrap;
+
+            .factor-item {
+                width: 31%;
+                margin-right: 2%;
+                margin-bottom: 1rem;
+
+                .factor-descr {
+                    font-size: 1rem;
+                }
+            }
+        }
+    }
+}
 
 /* стили для XS */
 @media (max-width: 576px) {}

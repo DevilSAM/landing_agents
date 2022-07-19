@@ -52,11 +52,25 @@
     }
 }
 
-/* стили для MD */
-@media (max-width: 992px) {}
 
 /* стили для SM */
-@media (max-width: 768px) {}
+@media (max-width: 768px) {
+    .section-7 {
+        .have-no-block {
+            flex-direction: column;
+
+            .item {
+                margin-bottom: 1.5rem;
+                &:not(:last-child) {
+                    margin-right: 0;
+                }
+            }
+        }
+        .office-ps {
+            text-align: center;
+        }
+    }
+}
 
 /* стили для XS */
 @media (max-width: 576px) {}

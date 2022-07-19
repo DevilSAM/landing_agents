@@ -50,7 +50,13 @@
 }
 
 /* стили для SM */
-@media (max-width: 768px) {}
+@media (max-width: 768px) {
+    .section-1 {
+        .left-side {
+            width: 100%;
+        }
+    }
+}
 
 /* стили для XS */
 @media (max-width: 576px) {}

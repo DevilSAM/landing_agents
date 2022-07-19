@@ -16,7 +16,7 @@
                     <li class="disc-left">без фейков не заработать</li>
                 </ul>
             </div>
-            <div class="divider">
+            <div class="divider d-none d-md-block">
                 <img src="src/images/lightning.png" alt="">
             </div>
             <div class="right-side">

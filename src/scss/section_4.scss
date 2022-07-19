@@ -53,11 +53,16 @@
     }
 }
 
-/* стили для MD */
-@media (max-width: 992px) {}
-
 /* стили для SM */
-@media (max-width: 768px) {}
+@media (max-width: 768px) {
+    .section-4 {
+        .video-wrapper {
+            .plyr-wrapper{
+                width: 95%;
+            }
+        }
+    }
+}
 
 /* стили для XS */
 @media (max-width: 576px) {}

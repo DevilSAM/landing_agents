@@ -73,7 +73,24 @@
 }
 
 /* стили для SM */
-@media (max-width: 768px) {}
+@media (max-width: 768px) {
+    .section-5 {
+        padding-top: 70px;
+        padding-bottom: 70px;
+
+        .section-title, .section-descr {
+            width: 100%;
+        }
+
+        .tasks-wrapper {
+            .task-item {
+                .task-text {
+                    font-size: 0.8rem;
+                }
+            }
+        }
+    }
+}
 
 /* стили для XS */
 @media (max-width: 576px) {}

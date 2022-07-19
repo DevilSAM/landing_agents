@@ -161,7 +161,36 @@
 }
 
 /* стили для SM */
-@media (max-width: 768px) {}
+@media (max-width: 768px) {
+    .section-9 {
+        .bottom {
+            margin-top: 50px;
+            flex-direction: column;
+
+            .bottom-left {
+                width: 100%;
+            }
+            .bottom-right {
+                padding-top: 10px;
+                padding-right: 0;
+
+                img {
+                    margin-left: 1rem;
+                }
+
+                ol {
+                    padding-left: 1rem;
+
+                    li {
+                        margin-bottom: 10px;
+                    }
+                }
+            };
+
+
+        }
+    }
+}
 
 /* стили для XS */
 @media (max-width: 576px) {}

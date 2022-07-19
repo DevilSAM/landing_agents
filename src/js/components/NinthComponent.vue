@@ -31,7 +31,7 @@
             <div class="bottom">
                 <h2 class="bottom-left">Поэтому, если вы думаете стать экспертом в недвижимости с доходом от 300 000 рублей в месяц, ваш первый и самый важный шаг – это получить реальное представление о работе и <span class="text-primary">честно ответить себе на вопросы:</span></h2>
                 <div class="bottom-right">
-                    <img src="src/images/icons/arrows.png" alt="" height="32px">
+                    <img src="src/images/icons/arrows.png" alt="" height="32px" class="d-none d-md-none">
                     <ol>
                         <li>Подходит ли МНЕ эта профессия?</li>
                         <li>Смогу ли Я получать удовольствие от работы и достигать высоких результатов?</li>

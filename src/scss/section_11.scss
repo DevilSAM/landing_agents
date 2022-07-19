@@ -37,7 +37,18 @@
 }
 
 /* стили для SM */
-@media (max-width: 768px) {}
+@media (max-width: 768px) {
+    .section-11 {
+        padding-bottom: 35px;
+
+        h2 {
+            font-size: 1.2rem;
+        }
+        .btn-inverted {
+            font-size: 0.8rem;
+        }
+    }
+}
 
 /* стили для XS */
 @media (max-width: 576px) {}

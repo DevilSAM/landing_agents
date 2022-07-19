@@ -88,7 +88,26 @@
 }
 
 /* стили для SM */
-@media (max-width: 768px) {}
+@media (max-width: 768px) {
+    .section-8 {
+        padding-top: 60px;
+        padding-bottom: 60px;
+
+        .vacation-block {
+            flex-direction: column;
+            margin-top: 0;
+            background-image: none;
+
+            .vacation-card {
+                width: 100%;
+                margin-bottom: 10px;
+                padding: 40px;
+                font-size: 1rem;
+            }
+        }
+    }
+
+}
 
 /* стили для XS */
 @media (max-width: 576px) {}

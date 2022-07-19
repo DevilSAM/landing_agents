@@ -148,7 +148,45 @@
 }
 
 /* стили для SM */
-@media (max-width: 768px) {}
+@media (max-width: 768px) {
+    .section-6 {
+        .diagram-block {
+            .prefix {
+                padding-top: 10px;
+                margin-right: 40px;
+
+                .stat {
+                    font-size: 1rem;
+                }
+                .left-stat {
+                    &:after {
+                        right: -40px;
+                        width: 30px;
+                    }
+                }
+            }
+            .diagram {
+                img {
+                    width: 125px;
+                }
+            }
+            .suffix {
+                padding-top: 10px;
+                margin-left: 40px;
+
+                .stat {
+                    font-size: 1rem;
+                }
+                .right-stat {
+                    &:before {
+                        left: -40px;
+                        width: 30px;
+                    }
+                }
+            }
+        }
+    }
+}
 
 /* стили для XS */
 @media (max-width: 576px) {}

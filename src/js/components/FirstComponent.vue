@@ -3,6 +3,7 @@
         <div class="max-width-container section-1">
             <div class="left-side">
                 <p>Получи доступ к закрытым уровкам</p>
+                <!--  <img src="src/images/first_img.png" alt="" class="d-block d-md-none mx-auto" width="100px"> -->
                 <h1 class="main-title">Как стать экспертом<br>
                     по недвижимости в <span class="text-primary">Сочи</span><sup>*</sup><br>
                     и начать зарабатывать<br>
@@ -21,7 +22,7 @@
                 <p class="small-text grey-text mt-3">* Или в любом другом городе РФ</p>
             </div>
 
-            <div class="right-side">
+            <div class="right-side d-none d-md-block">
                 <img src="src/images/first_img.png" alt="" class="d-block mx-auto">
             </div>
         </div>

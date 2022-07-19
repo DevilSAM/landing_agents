@@ -57,7 +57,22 @@ ol {
 }
 
 /* стили для SM */
-@media (max-width: 768px) {}
+@media (max-width: 768px) {
+    ul {
+        li {
+            &.disc-right {
+                margin-left: 20px;
+                margin-right: 0;
+
+                &:after {
+                    top: calc(50% - 2px);
+                    left: -20px;
+                }
+            }
+
+        }
+    }
+}
 
 /* стили для XS */
 @media (max-width: 576px) {}

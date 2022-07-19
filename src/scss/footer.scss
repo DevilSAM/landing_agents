@@ -30,3 +30,38 @@ footer {
 
 }
 
+
+/* стили для MD */
+@media (max-width: 992px) {
+    footer {
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+}
+
+/* стили для SM */
+@media (max-width: 768px) {
+    footer {
+        padding-left: 60px;
+        padding-right: 60px;
+        padding-bottom: 50px;
+
+        .footer {
+            .logo-image {
+                width: 110px;
+            }
+
+            .contact-block {
+                .phone-icon {
+                    width: 15px;
+                }
+                .contact {
+                    font-size: 1rem;
+                }
+            }
+        }
+    }
+}
+
+/* стили для XS */
+@media (max-width: 576px) {}
