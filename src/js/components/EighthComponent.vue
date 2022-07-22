@@ -6,7 +6,7 @@
             <p class="text-center section-descr">Для нас важно, чтобы ты достигал не только профессиональных, но и личных целей.</p>
             <p class="text-center section-descr">И мы создали для этого все условия:</p>
             <div class="vacation-block">
-                <div class="vacation-card">
+                <div class="vacation-card small-text">
                     <p class="card-title">Обязательные длинные выходные <br class="d-none d-lg-block">3 дня подряд — 1 раз в месяц</p>
                     <ul>
                         Это мини-отпуска, когда можно отключить телефон и посвятить всего себя:
@@ -18,7 +18,7 @@
                     </ul>
                     <p>Даты каждый сотрудник выбирает самостоятельно.</p>
                 </div>
-                <div class="vacation-card">
+                <div class="vacation-card small-text">
                     <p class="card-title">Полноценный отпуск (5-10 дней) <br class="d-none d-lg-block">каждые 3-4 месяца</p>
                     <ul>
                         <li class="disc-left">Путешествуй 3-4 раза в год</li>

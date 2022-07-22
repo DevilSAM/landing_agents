@@ -1,0 +1,20 @@
+#questionModalContent {
+    &.faded {
+        background-color: rgba(0,0,0, 0.05);
+        pointer-events: none;
+    }
+
+    #questionForm {
+        position: relative;
+    }
+
+    .has_errors {
+        border-color: red;
+    }
+}
+
+
+
+.modal-response {
+    padding: 30px 20px;
+}

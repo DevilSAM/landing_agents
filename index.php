@@ -11,7 +11,7 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <title>Карточка ЖК</title>
+    <title>Работа в ИАЦН Наследие</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="/dist/assets/css/app.css">
@@ -36,6 +36,7 @@
     <eleventh-component></eleventh-component>
     <twelfth-component></twelfth-component>
     <footer-component></footer-component>
+    <form-modal></form-modal>
 </div>
 
 <script src="/dist/assets/js/app.js"></script>

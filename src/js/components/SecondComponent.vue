@@ -26,7 +26,7 @@
                 <h2 class="pre-title">
                     Наши успешные агенты <br class="d-none d-sm-block">это опровергают!
                 </h2>
-                <ul>
+                <ul class="small-text">
                     <li class="disc-right">1,5 месяца – стандартный срок выхода на первую сделку</li>
                     <li class="disc-right">Допуск к ведению горячих клиентов со 2-й недели</li>
                     <li class="disc-right">Наставники оплачиваются компанией</li>

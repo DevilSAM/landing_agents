@@ -8,7 +8,7 @@
             <div class="company-info d-none d-md-block">
                 <p class="smallest-text m-0">Работаем с 2007 года<br>Сеть из 15 офисов в городах России</p>
             </div>
-            <button class="btn btn-primary ms-auto">Задать вопрос</button>
+            <button class="btn btn-primary ms-auto" data-bs-toggle="modal" data-bs-target="#formModal">Задать вопрос</button>
 
         </div>
     </header>

@@ -2,6 +2,7 @@ require('./bootstrap');
 
 import Vue from "vue";
 import VuePlyr from 'vue-plyr'
+import VueMask from 'v-mask'
 
 Vue.component('header-component', require('./components/HeaderComponent').default);
 Vue.component('footer-component', require('./components/FooterComponent').default);
@@ -19,8 +20,11 @@ Vue.component('tenth-component', require('./components/TenthComponent').default)
 Vue.component('eleventh-component', require('./components/EleventhComponent').default);
 Vue.component('twelfth-component', require('./components/TwelfthComponent').default);
 
+Vue.component('form-modal', require('./components/ModalForm').default);
+
 
 Vue.use(VuePlyr)
+Vue.use(VueMask)
 
 new Vue({
     el: '#app',

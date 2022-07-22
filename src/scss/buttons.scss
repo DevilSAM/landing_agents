@@ -2,8 +2,19 @@
     color: #FFFFFF;
 }
 
-.btn-primary {
+.btn {
     padding: 10px 20px;
+
+    &:focus {
+        box-shadow: none;
+
+        &:active {
+            box-shadow: none;
+        }
+    }
+}
+
+.btn-primary {
 
     &.btn-inverted {
         color: $primary;
@@ -14,3 +25,4 @@
         }
     }
 }
+
