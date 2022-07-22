@@ -28,7 +28,7 @@
                                        placeholder="Имя"
                                        v-model="form.name"
                                        @keypress="allowLettersOnly"
-                                       @input="dropErrors"
+                                       @focus="dropErrors"
                                 >
                                 <small class="text-danger" v-if="name_err">Заполните это поле</small>
                             </div>
@@ -41,7 +41,7 @@
                                        placeholder="Телефон"
                                        v-model="form.phone"
                                        v-mask="'+7 (###) ###-##-##'"
-                                       @input="dropErrors"
+                                       @focus="dropErrors"
                                 >
                                 <small class="text-danger" v-if="phone_err">Заполните это поле</small>
                             </div>
@@ -56,8 +56,8 @@
                             </div>
                         </form>
                     </div>
+
                     <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
                         <button type="button" class="btn btn-primary" @click.prevent="sendForm" :disabled="loading">Отправить</button>
                     </div>
 
@@ -106,13 +106,12 @@ export default {
          * Отправка формы на сервер
          */
         sendForm(e){
-
-            this.loading = true
-
             this.checkForm()
 
-            if (this.form.name.errors || this.form.phone.errors)
+            if (this.name_err || this.phone_err)
                 return
+
+            this.loading = true
 
             $.ajax('https://nasledie-don.ru/admin/ajax/landing_agents.php', {
                 method: 'POST',

@@ -1,3 +1,8 @@
+.form-control:focus {
+    box-shadow: none;
+}
+
+
 #questionModalContent {
     &.faded {
         background-color: rgba(0,0,0, 0.05);
@@ -13,8 +18,13 @@
     }
 }
 
-
-
 .modal-response {
     padding: 30px 20px;
+}
+
+.modal-header {
+    border-bottom: none;
+}
+.modal-footer {
+    border-top: none;
 }

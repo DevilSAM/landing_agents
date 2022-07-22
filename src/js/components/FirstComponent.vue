@@ -18,7 +18,11 @@
                     <li class="disc-left">какие компетенции предстоит развивать</li>
                     <li class="disc-left">подходит ли тебе эта профессия</li>
                 </ul>
-                <button class="btn btn-primary mt-3">Получить доступ к урокам</button>
+
+                <a href="">
+                    <button class="btn btn-primary mt-3">Получить доступ к урокам</button>
+                </a>
+
                 <p class="small-text grey-text mt-3">* Или в любом другом городе РФ</p>
             </div>
 
