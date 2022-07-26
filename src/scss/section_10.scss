@@ -33,3 +33,14 @@
         }
     }
 }
+
+@media (max-width: 374px) {
+    .section-10 {
+        padding-top: 30px;
+        padding-bottom: 20px;
+
+        .title {
+            margin-bottom: 0;
+        }
+    }
+}

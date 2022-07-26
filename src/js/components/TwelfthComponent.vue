@@ -50,9 +50,9 @@
 
             <hr>
 
-            <h1 class="title text-center mt-5">Сделай 1-й шаг к лучшей жизни</h1>
+            <h1 class="title text-center mt-3 mt-sm-5">Сделай 1-й шаг к лучшей жизни</h1>
             <a href="" class="d-block mx-auto">
-                <button class="btn btn-primary d-block mx-auto mt-4 mb-5">Посмотри уроки<span class="d-none d-sm-inline"> и прими решение</span> бесплатно</button>
+                <button class="btn btn-primary d-block mx-auto mt-3 mt-sm-4 mb-3 mb-sm-5">Посмотри уроки<span class="d-none d-sm-inline"> и прими решение</span> бесплатно</button>
             </a>
             <hr>
         </div>

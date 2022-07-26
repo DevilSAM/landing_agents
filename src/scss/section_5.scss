@@ -99,3 +99,25 @@
         padding-bottom: 40px;
     }
 }
+
+
+@media (max-width: 768px) {
+    .section-5 {
+        .tasks-wrapper {
+            flex-direction: column;
+            margin-top: 40px;
+
+            .task-item {
+                .task-title {
+                    margin-top: 5px;
+                    margin-bottom: 5px;
+                }
+                .task-text {
+                    font-size: 0.9rem;
+                    width: 100%;
+                    margin-bottom: 1.5rem;
+                }
+            }
+        }
+    }
+}

@@ -117,3 +117,22 @@ a, a:hover {
         font-size: 1.2rem;
     }
 }
+
+@media (max-width: 374px) {
+    h1 {
+        font-size: 1rem;
+    }
+    section {
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-bottom: 30px;
+    }
+    .main-title {
+        font-size: 1.3rem;
+        line-height: 1.5rem;
+        text-align: justify;
+    }
+    .small-text {
+        font-size: 1rem;
+    }
+}

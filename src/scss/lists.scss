@@ -107,3 +107,31 @@ ol {
         }
     }
 }
+
+/* стили для XS */
+@media (max-width: 374px) {
+    ul {
+        li {
+            &.disc-left {
+                margin-left: 20px;
+
+                &:before {
+                    top: 8px;
+                    width: 8px;
+                    height: 8px;
+                    left: -20px;
+                }
+            }
+            &.disc-right {
+                font-size: 1rem;
+
+                &:after {
+                    top:8px;
+                    width: 8px;
+                    height: 8px;
+                    left: -20px;
+                }
+            }
+        }
+    }
+}

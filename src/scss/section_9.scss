@@ -249,3 +249,21 @@
         padding-left: 30px;
     }
 }
+
+
+@media (max-width: 374px) {
+    .section-9 {
+        .bottom {
+            .bottom-left {
+                font-size: 1.1rem;
+                line-height: 1.5rem;
+            }
+        }
+    }
+
+
+    .custom-section-padding {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+}

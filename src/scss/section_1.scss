@@ -69,3 +69,17 @@
         }
     }
 }
+
+
+@media (max-width: 374px) {
+    .section-1 {
+        .left-side {
+            .mobile-main-image {
+                max-width: 220px;
+            }
+            .centered-flex-text {
+                align-self: center;
+            }
+        }
+    }
+}

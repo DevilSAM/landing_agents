@@ -110,7 +110,6 @@
             }
         }
     }
-
 }
 
 /* стили для XS */
@@ -133,6 +132,21 @@
 
                 li {
                     text-align: left;
+                }
+            }
+        }
+    }
+}
+
+
+@media (max-width: 374px) {
+    .section-8 {
+        .vacation-block {
+            .vacation-card {
+                padding: 20px;
+
+                .card-title {
+                    font-size: 1rem;
                 }
             }
         }

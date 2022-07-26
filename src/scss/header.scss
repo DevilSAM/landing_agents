@@ -56,3 +56,20 @@ header {
         padding-right: 30px;
     }
 }
+
+/* стили для XS */
+@media (max-width: 374px) {
+    header {
+        padding-left: 10px;
+        padding-right: 10px;
+
+        .header-wrapper {
+            margin-bottom: 30px;
+            padding-top: 20px;
+
+            .logo-image {
+                width: 130px;
+            }
+        }
+    }
+}
