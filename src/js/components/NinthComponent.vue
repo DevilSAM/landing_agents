@@ -3,7 +3,7 @@
         <div class="max-width-container section-9">
             <div class="top">
                 <div class="top-left">
-                    <h1 class="title mt-4 video-title">Почему мы даем <span class="text-primary">бесплатный доступ</span> к закрытым урокам?</h1>
+                    <h1 class="title mt-4 video-title">Почему мы даем <span class="text-primary">бесплатный доступ</span> к закрытому уроку?</h1>
                     <p class="descr">Желающих иметь высокие доходы намного больше, чем людей, реально способных стать профессионалом и стабильно зарабатывать в сфере недвижимости.</p>
                     <p class="descr">Часто люди, приходят в агентства, имея искаженное представление о работе риелтором.</p>
                     <p class="descr fw-bold">Это приводит к тому, что люди:</p>

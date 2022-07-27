@@ -3,7 +3,7 @@
         <div class="max-width-container section-1">
             <div class="left-side">
                 <img src="src/images/first_img.png" alt="" class="d-block d-md-none mx-auto mb-4 mb-sm-5 mobile-main-image">
-                <p class="centered-flex-text">Получи доступ к закрытым урокам</p>
+                <p class="centered-flex-text">Получи доступ к закрытому уроку</p>
                 <h1 class="main-title">Как стать экспертом <br class="d-none d-sm-block">
                     по недвижимости в <span class="text-primary">Сочи</span><sup>*</sup> <br class="d-none d-sm-block">
                     и начать зарабатывать <br class="d-none d-sm-block">
@@ -20,7 +20,7 @@
                 </ul>
 
                 <a href="">
-                    <button class="btn btn-primary mt-3">Получить доступ к урокам</button>
+                    <button class="btn btn-primary mt-3">Получить доступ к уроку</button>
                 </a>
 
                 <p class="small-text grey-text mt-3">* Или в любом другом городе РФ</p>
