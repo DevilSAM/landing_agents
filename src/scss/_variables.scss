@@ -20,3 +20,9 @@ $cyan: #6cb2eb;
 
 $primary: #EE9536;
 $secondary-background: #FFF8E1;
+
+// а так можно будет переопределять анимацию отдельных модалок
+:root {
+    --my-modal-fade-transform: translate(0, -50px); // стандартное поведение
+}
+$modal-fade-transform: var(--my-modal-fade-transform);

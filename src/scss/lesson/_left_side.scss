@@ -1,0 +1,59 @@
+.left-side {
+    z-index: 100;
+    hr {
+        color: #C4C4C4;
+    }
+    .user-picture {
+        margin-top: 1.7rem;
+        margin-bottom: 0.8rem;
+
+        &__img {
+            border-radius: 50%;
+            width: 120px;
+        }
+    }
+    .user-name {
+        font-size: 1.15rem;
+        margin-bottom: 0.2rem;
+    }
+    .user-level {
+        font-size: 0.9rem;
+        margin-bottom: 0.8rem;
+    }
+    #filledProgress {
+        width: 75%;
+    }
+    .progressbar {
+        height: 7px;
+        position: relative;
+        width: 53%;
+        background: rgb(243,243,243);
+        border-radius: 5px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 0.8rem;
+        padding: 0;
+        box-shadow: inset 0 -1px 1px rgba(255,255,255,0.3);
+    }
+    .progressbar > span {
+        display: block;
+        height: 100%;
+        border-radius: 5px;
+        background-color: #EE9536;
+        position: relative;
+        overflow: hidden;
+    }
+    .to-next-level {
+        line-height: 1.2;
+    }
+}
+
+@media (max-width: 1200px) {
+    .left-side {
+        .user-picture {
+            &__img {
+                width: 100px;
+            }
+        }
+    }
+}

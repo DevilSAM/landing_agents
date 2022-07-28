@@ -19,7 +19,7 @@
                     <li class="disc-left">подходит ли тебе эта профессия</li>
                 </ul>
 
-                <a href="">
+                <a href="/login.html">
                     <button class="btn btn-primary mt-3">Получить доступ к уроку</button>
                 </a>
 

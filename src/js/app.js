@@ -22,6 +22,14 @@ Vue.component('twelfth-component', require('./components/TwelfthComponent').defa
 
 Vue.component('form-modal', require('./components/ModalForm').default);
 
+// компоненты для страницы логина и урока
+Vue.component('left-side', require('./components/lesson/LeftSide').default);
+Vue.component('right-side', require('./components/lesson/RightSide').default);
+Vue.component('login-component', require('./components/lesson/LoginComponent').default);
+Vue.component('lesson-component', require('./components/lesson/LessonComponent').default);
+// модалки
+Vue.component('right-menu', require('./components/lesson/modal/RightMenu').default);
+Vue.component('feedback-component', require('./components/lesson/modal/FeedbackComponent').default);
 
 Vue.use(VuePlyr)
 Vue.use(VueMask)
