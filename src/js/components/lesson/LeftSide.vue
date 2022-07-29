@@ -17,6 +17,8 @@
         </div>
         <p class="to-next-level grey-text font-14 d-none d-md-block mb-0">до следующего уровня</p>
         <p class="to-next-level grey-text font-14 d-none d-md-block"><span id="toNextLevel">236</span> балов</p>
+
+        <button id="callbackBtn" class="btn btn-primary mt-4" data-bs-toggle="modal" data-bs-target="#feedback_form_modal">Свяжитесь со мной</button>
     </div>
 
 </template>
@@ -28,5 +30,15 @@ export default {
 </script>
 
 <style scoped>
+@media(max-width: 1200px) {
+    #callbackBtn {
+        font-size: 0.8rem;
+    }
+}
+@media(max-width: 992px) {
+    #callbackBtn {
+        font-size: 0.9rem;
+    }
+}
 
 </style>
