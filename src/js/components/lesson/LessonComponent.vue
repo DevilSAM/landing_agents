@@ -1,6 +1,6 @@
 <template>
 
-    <div class="app-wrapper row" id="eduCenter" v-if="access_granted === 'allowed'">
+    <div class="app-wrapper row" id="eduCenter">
 
         <left-side></left-side>
         <right-side></right-side>
@@ -9,26 +9,8 @@
 
     </div>
 
-    <div v-else>
-        <h2 class="text-center mt-5">Необходимо <a href="/login.html">авторизоваться</a></h2>
-    </div>
-
 </template>
 
 <script>
-export default {
-    name: "LessonComponent",
-    data: ()=>({
-        access_granted: 'denied',
-    }),
-
-    mounted(){
-        this.access_granted = sessionStorage['accessGranted'];
-        console.log(this.access_granted)
-    },
-}
+export default {}
 </script>
-
-<style scoped>
-
-</style>

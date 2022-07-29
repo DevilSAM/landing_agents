@@ -20,7 +20,7 @@
 
             </div>
 
-            <a href="/login.html" class="d-block mx-auto">
+            <a href="/lesson.html" class="d-block mx-auto">
                 <button class="btn btn-primary d-block mx-auto mt-3 mt-sm-4 mb-3 mb-sm-5">Посмотреть бесплатный урок<span class="d-none d-sm-inline"> и принять решение</span></button>
             </a>
 
