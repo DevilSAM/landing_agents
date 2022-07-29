@@ -1,6 +1,13 @@
 <template>
 
     <div class="right-side col-12 col-md-9 col-lg-10 pt-5">
+
+        <svg id="menuIconMobile" class="menu-icon" width="22" height="17" viewBox="0 0 22 17" fill="none" xmlns="http://www.w3.org/2000/svg" data-bs-toggle="modal" data-bs-target="#menuModal">
+            <rect y="0" width="22" height="2" fill="#EE9536"/>
+            <rect y="6" width="22" height="2" fill="#EE9536"/>
+            <rect y="12" width="22" height="2" fill="#EE9536"/>
+        </svg>
+
         <div class="d-flex program-video align-items-center">
 
             <div class="program-video-header flex-grow-1 d-flex flex-column align-items-center">
@@ -12,7 +19,7 @@
 
             <div class="menu-title ms-auto font-14 me-4 mb-0" data-bs-toggle="modal" data-bs-target="#menuModal">
                 <p class="menu-title__name d-none d-sm-inline">Оглавление</p>
-                <svg class="menu-icon" width="22" height="17" viewBox="0 0 22 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg id="menuIconDesktop" class="menu-icon" width="22" height="17" viewBox="0 0 22 17" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <rect y="0" width="22" height="2" fill="#EE9536"/>
                     <rect y="6" width="22" height="2" fill="#EE9536"/>
                     <rect y="12" width="22" height="2" fill="#EE9536"/>
@@ -55,11 +62,7 @@
 export default {
     name: "RightSide",
 
-    methods: {
-        showAlert() {
-
-        },
-    },
+    methods: {},
 }
 </script>
 

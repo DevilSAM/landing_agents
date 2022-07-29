@@ -5,7 +5,7 @@
             <div class="modal-content">
                 <div class="modal-header">
                     <h2 class="modal-title" id="menuModalLabel">Оглавление</h2>
-                    <svg class="close-modal-btn" data-bs-dismiss="modal" width="38" height="38" viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <svg id="closeRightMenuBtn" class="close-modal-btn" data-bs-dismiss="modal" viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M1 1L37 37" stroke="#EE9536" stroke-width="1.5" stroke-linejoin="round"/>
                         <path d="M37 1L0.999998 37" stroke="#EE9536" stroke-width="1.5" stroke-linejoin="round"/>
                     </svg>

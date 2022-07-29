@@ -1,15 +1,18 @@
-//form {
-//    .form-control {
-//        border: none;
-//        border-radius: 0;
-//        border-bottom: 2px solid rgba(170,170,170, 0.9);
-//
-//        &.invalid {
-//            border-bottom-color: $danger;
-//        }
-//
-//        &:focus {
-//            box-shadow: none;
-//        }
-//    }
-//}
+#login_form {
+    width: 50%;
+    margin-top: 3rem;
+    background-color: white;
+    box-shadow: 0 0 20px rgba(0,0,0, .5);
+    padding: 20px;
+}
+@media (max-width: 992px) {
+    #login_form {
+        width: 75%;
+    }
+}
+@media (max-width: 576px) {
+    #login_form {
+        width: 100%;
+        margin-top: 10rem;
+    }
+}

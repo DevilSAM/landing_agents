@@ -98,6 +98,11 @@
             letter-spacing: 0.2px;
         }
     }
+
+    #menuIconMobile {
+        display: none;
+    }
+
 }
 
 // XL
@@ -189,6 +194,15 @@
             font-size: 0.5rem;
         }
 
+        #menuIconDesktop {
+            display: none;
+        }
+        #menuIconMobile {
+            display: block;
+            position: absolute;
+            right: 3rem;
+            z-index: 1;
+        }
 
     }
 }
@@ -199,6 +213,14 @@
         .video-container {
             padding-right: 1rem;
             padding-left: 1rem;
+        }
+        .prev-next-video {
+            .nav-video-link {
+                padding: 0.5rem;
+            }
+        }
+        #menuIconMobile {
+            right: 2rem;
         }
     }
 }
