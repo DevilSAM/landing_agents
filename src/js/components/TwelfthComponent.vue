@@ -2,8 +2,8 @@
     <section >
         <div class="max-width-container section-12">
             <div class="section-title">
-                <h1 class="title">Реально ли выйти на доход <br class="d-none d-sm-inline">от 300 т.р/мес за 90 дней?</h1>
-                <p >Посмотри видео-отзывы тех, кто уже это сделал, и реши сам.</p>
+                <h1 class="title">СМОЖЕШЬ ЛИ ТЫ ВЫЙТИ НА ДОХОД <br class="d-none d-sm-inline">от 300т.р/мес за 90 дней?</h1>
+                <p>Посмотри видео-отзывы действующих агентов и реши сам</p>
             </div>
             <div class="feedback-videos">
                 <div class="video-wrapper mb-4 mb-xl-0">
@@ -11,7 +11,7 @@
                         <video controls crossorigin playsinline>
                             <source
                                 size="720"
-                                src="src/video/welcome.mp4"
+                                src="src/video/feedback_1.mp4"
                                 type="video/mp4"
                             />
                         </video>
@@ -22,7 +22,7 @@
                         <video controls crossorigin playsinline>
                             <source
                                 size="720"
-                                src="src/video/welcome.mp4"
+                                src="src/video/feedback_2.mp4"
                                 type="video/mp4"
                             />
                         </video>
@@ -33,7 +33,7 @@
                         <video controls crossorigin playsinline>
                             <source
                                 size="720"
-                                src="src/video/welcome.mp4"
+                                src="src/video/feedback_3.mp4"
                                 type="video/mp4"
                             />
                         </video>
