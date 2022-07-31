@@ -2,7 +2,7 @@
     <section >
         <div class="max-width-container section-12">
             <div class="section-title">
-                <h1 class="title">СМОЖЕШЬ ЛИ ТЫ ВЫЙТИ НА ДОХОД <br class="d-none d-sm-inline">от 300т.р/мес за 90 дней?</h1>
+                <h1 class="title">Сможешь ли ты выйти на доход <br class="d-none d-sm-inline">от 300т.р/мес за 90 дней?</h1>
                 <p>Посмотри видео-отзывы действующих агентов и реши сам</p>
             </div>
             <div class="feedback-videos">

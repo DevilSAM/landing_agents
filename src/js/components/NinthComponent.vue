@@ -15,15 +15,7 @@
                 </div>
                 <div class="top-right">
                     <div class="plyr-wrapper">
-                        <vue-plyr>
-                            <video controls crossorigin playsinline>
-                                <source
-                                    size="720"
-                                    src="src/video/welcome.mp4"
-                                    type="video/mp4"
-                                />
-                            </video>
-                        </vue-plyr>
+                        <img src="src/images/_scr.jpg" alt="скриншот страницы" class="w-100">
                     </div>
                 </div>
             </div>

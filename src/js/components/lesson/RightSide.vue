@@ -13,7 +13,7 @@
             <div class="program-video-header flex-grow-1 d-flex flex-column align-items-center">
                 <div class="program-video-header__img mb-2"></div>
                 <div class="program-video-header__theme font-14">Введение в работу</div>
-                <div class="program-video-header__title"><h3 class="program-video-header__title-name">От чего зависит успех агента</h3></div>
+                <div class="program-video-header__title"><h3 class="program-video-header__title-name">Как стать экспертом по недвижимости и начать зарабатывать</h3></div>
                 <div class="program-video-header__number font-14">1.1</div>
             </div>
 
@@ -34,7 +34,7 @@
                 <video controls crossorigin playsinline>
                     <source
                         size="720"
-                        src="src/video/welcome.mp4"
+                        src="src/video/lesson.mp4"
                         type="video/mp4"
                     />
                 </video>
