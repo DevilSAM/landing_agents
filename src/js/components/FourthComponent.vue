@@ -7,14 +7,7 @@
 
                 <div class="plyr-wrapper">
                     <vue-plyr>
-                        <video controls crossorigin playsinline
-                        >
-                            <source
-                                size="720"
-                                src="src/video/welcome.mp4"
-                                type="video/mp4"
-                            />
-                        </video>
+                        <div data-plyr-provider="youtube" data-plyr-embed-id="QgD0hnkyklg"></div>
                     </vue-plyr>
                 </div>
 

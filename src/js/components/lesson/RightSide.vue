@@ -31,13 +31,7 @@
 
         <div class="video-container">
             <vue-plyr>
-                <video controls crossorigin playsinline>
-                    <source
-                        size="720"
-                        src="src/video/lesson.mp4"
-                        type="video/mp4"
-                    />
-                </video>
+                <div data-plyr-provider="youtube" data-plyr-embed-id="9nj521vzvIE"></div>
             </vue-plyr>
         </div>
 
