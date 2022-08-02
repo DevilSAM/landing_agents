@@ -75,6 +75,9 @@ export default {
                     this.loading = false
                     let jsn = JSON.parse(data)
                     if (jsn.success) {
+
+                        ym(89811416, 'reachGoal', 'form');
+
                         this.resetForm()
                         $('form').replaceWith("<p class='modal-response text-center text-success'>Спасибо!<br>Ваша заявка успешно отправлена!<br>Наш специалист свяжется с Вами в ближайшее время.</p>");
                     } else {
