@@ -45,7 +45,7 @@ export default {
 
             if(this.name === 'demo' && this.password === 'demo') {
                 sessionStorage['accessGranted'] = 'allowed';
-                location.href = '/lesson.html';
+                location.href = '/lesson.php';
             } else {
                 sessionStorage['accessGranted'] = 'denied';
                 if(this.name !== 'demo'){

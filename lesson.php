@@ -1,9 +1,13 @@
+<?php
+    require_once ('config.php');
+?>
+
 <!DOCTYPE html>
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
     <title>Открытый урок</title>
-    <link rel="stylesheet" href="dist/assets/css/app.css">
+    <link rel="stylesheet" href="dist/assets/css/app.css?v<?=time_update('dist/assets/css/app.css')?>">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -31,6 +35,6 @@
         <lesson-component></lesson-component>
     </div>
 </div>
-<script src="dist/assets/js/app.js"></script>
+<script src="dist/assets/js/app.js?v<?=time_update('dist/assets/js/app.js')?>"></script>
 </body>
 </html>

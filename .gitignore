@@ -1,5 +1,6 @@
 .gitignore
 .idea/
+config.php
 dist/
 src/images/
 src/video/

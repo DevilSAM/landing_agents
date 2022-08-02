@@ -19,7 +19,7 @@
                     <li class="disc-left">подходит ли тебе эта профессия</li>
                 </ul>
 
-                <a href="/lesson.html">
+                <a href="/lesson.php">
                     <button class="btn btn-primary mt-3">Получить доступ к уроку</button>
                 </a>
 
