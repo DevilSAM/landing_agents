@@ -35,17 +35,7 @@
             </vue-plyr>
         </div>
 
-        <div class="prev-next-video d-flex mt-3 mt-md-4 mt-lg-5 mb-5" data-bs-toggle="modal" data-bs-target="#feedback_form_modal">
-            <div class="next-video nav-video-link d-flex justify-content-between">
-                <div class="next-text d-flex flex-column align-items-start pe-2">
-                    <p class="grey-text font-14">Следующее</p>
-                    <p class="prev-next-video__title d-none d-sm-block">Доходы агента: управление и планирование...</p>
-                </div>
-                <div class="video-arrow next-arrow">
-                    <i class="fas fa-chevron-right"></i>
-                </div>
-            </div>
-        </div>
+        <button class="btn btn-primary d-block mx-auto my-5" data-bs-toggle="modal" data-bs-target="#feedback_form_modal">Свяжитесь со мной</button>
 
         <feedback-component></feedback-component>
     </div>
